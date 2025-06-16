@@ -1,0 +1,4 @@
+token = '8169565841:AAEt3bS0jh4IytjpEHxkKhWd9npJPmb8Jzc'
+tokenInfo = '8129380584:AAEqv9hOZY41CF_7EQFu6xuKt5UAIjtLWpU'
+url = 'https://rpisqhggvmvtpxmsgwmc.supabase.co'
+key = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJwaXNxaGdndm12dHB4bXNnd21jIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTAwMTY0MjAsImV4cCI6MjA2NTU5MjQyMH0.sfZnp7aDUCfwEtfPh8cQTKOlYKfl-cagziaks-E4Sbc'
