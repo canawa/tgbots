@@ -1,5 +1,5 @@
 import random
-
+import os
 from pyexpat.errors import messages
 from supabase import Client, create_client
 from sys import excepthook
@@ -10,6 +10,10 @@ from config import token
 from aiogram import*
 from aiogram.filters import CommandStart, Command
 from aiogram.types import BotCommand
+
+url = os.getenv("SUPABASE_URL")
+key = os.getenv("SUPABASE_KEY")
+token = os.getenv("TOKEN")
 
 supabase : Client = create_client(url,key)
 

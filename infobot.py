@@ -7,6 +7,10 @@ from aiogram.filters import CommandStart
 from aiohttp.helpers import TOKEN
 from config import tokenInfo, key,url
 
+url = os.getenv("SUPABASE_URL")
+key = os.getenv("SUPABASE_KEY")
+tokenInfo = os.getenv("INFO_TOKEN")
+
 bot = Bot(token=tokenInfo) # иниц бота
 dp = Dispatcher()
 
